@@ -1,0 +1,84 @@
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<!-- Background & animion & navbar & title -->
+<div class="container-fluid">
+    <!-- Background animtion-->
+    <div class="background">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+    </div>
+    <!-- header -->
+    <header>
+        <!-- navbar -->
+        <nav>
+            <ul>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Sur-nous</a></li>
+                <li><a href="#">Services</a></li>
+
+                <li><a href="#">Contact</a></li>
+                <li><a href="http://localhost:4200/login">Connexion</a></li>
+                <li><a href="http://localhost:4200/register">Register</a></li>
+            </ul>
+        </nav>
+        <h5 class="uxg-h5"> profile</h5>
+<div class="example-menu-row">
+  <button mat-stroked-button [matMenuTriggerFor]="menuHero" color="primary" ng-init>Click </button>
+  <mat-menu #menuHero="matMenu" class="uxg-user-profile">
+      <div class="uxg-menu-header">
+          <div class="uxg-avatar-hero-block">
+              <div class="uxg-avatar" large>RH</div>
+              <h6 class="uxg-h6">Raya Hristova</h6>
+              <span class="uxg-caption">raya.hristova@finastra.com</span>
+          </div>
+      </div>
+      <mat-divider></mat-divider>
+      <div class="uxg-menu-footer">
+          <button mat-flat-button color="primary" dense>
+              <mat-icon>exit_to_app</mat-icon>
+              Logout
+          </button>
+          <button mat-button color="primary" dense>
+              View profile
+          </button>
+      </div>
+  </mat-menu>
+</div>
+
+        <!-- logo -->
+        <div class="logo"><span>LLOYD</span></div>
+        <!-- title & content -->
+        <section class="header-content">
+            <h1>Welcome</h1>
+            <p> Welcome to our Website. <br> making high quality assurance offers to make your life easier.</p>
+            <button>Know more</button>
+            <button>Meet us</button>
+        </section>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <router-outlet>
+    </router-outlet>
